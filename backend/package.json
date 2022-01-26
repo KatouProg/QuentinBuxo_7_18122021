@@ -21,9 +21,13 @@
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
+    "fs": "^0.0.1-security",
     "helmet": "^5.0.2",
     "jsonwebtoken": "^8.5.1",
     "maskdata": "^1.1.6",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "password-validator": "^5.2.1",
+    "sqlite3": "^5.0.2"
   }
 }

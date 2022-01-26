@@ -1,6 +1,6 @@
 const router = require('express').Router(); // Express module router
 const userCtrl = require('../controllers/users'); // Chemin pour les fonctions userCtrl
-const auth = require('../middleware/auth'); // Chemin pour vérifier l'auth
+//const auth = require('../middleware/auth'); // Chemin pour vérifier l'auth
 
 try {
    router.post("/register", userCtrl.signup); // Route création d'un compte

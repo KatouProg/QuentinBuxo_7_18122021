@@ -72,7 +72,7 @@ class User {
         })
     }
 
-    // Recevoir les données du profil (id/nom/email/amdin)
+    // Recevoir les données du profil (id/nom/email/admin)
     getProfil(dataUserId) {
         let getDataUser = "SELECT id, name, email, admin FROM users WHERE id = ?";
         getDataUser = mysql.format(getDataUser, dataUserId);

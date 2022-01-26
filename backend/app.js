@@ -5,7 +5,6 @@ const bodyParser = require("body-parser"); // extrait le corp d' une requete et 
 const helmet = require("helmet"); // securise express en configurant divers headers
 
 const userRoutes = require('./routes/users');
-
 const app = express();
 
 app.use (helmet()); // Sécuriser les requêtes http
